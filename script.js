@@ -41,7 +41,15 @@ function playGame(playerSelection,computerSelection)
 }
 
 let choice = prompt('what is your choice(Rock,Paper,Scissors): ');
-
 console.log(playGame(choice.toLowerCase(),getComputerChoice()));
+choice = prompt('what is your choice(Rock,Paper,Scissors): ');
+console.log(playGame(choice.toLowerCase(),getComputerChoice()));
+choice = prompt('what is your choice(Rock,Paper,Scissors): ');
+console.log(playGame(choice.toLowerCase(),getComputerChoice()));
+choice = prompt('what is your choice(Rock,Paper,Scissors): ');
+console.log(playGame(choice.toLowerCase(),getComputerChoice()));
+choice = prompt('what is your choice(Rock,Paper,Scissors): ');
+console.log(playGame(choice.toLowerCase(),getComputerChoice()));
+
 
 
